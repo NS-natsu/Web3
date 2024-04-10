@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#main{	
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.center{
+	margin: 0 max(5%, 30px);
+}
+
+.square{
+	max-width: min(90vh, 90vw) !important;
+	max-height: min(90vh, 90vw) !important;
+	min-width: min(90vh, 90vw) !important;
+	min-height: min(90vh, 90vw) !important;
+	width: min(90vh, 90vw) !important;
+	height: min(90vh, 90vw) !important;
+}
+
+.wrapper{
+	display: grid !important;
+}
+
+#multiplication-chart{
+	padding: 0px;
+	border:solid 3px #333;
+}
+
+#multiplication-chart > *{
+	text-align: center;
+	font-size:12px;
+
+	margin: 0px;
+	padding: calc(50% - 12px) 0px;
+	border:solid 0.5px #333;
+}
+
+#multiplication-chart > #head{
+	background-color: yellow;
+	font-size: 16px;
+	
+	margin: 0px;
+	padding: calc(50% - 16px) 0px;
+	border:solid 1px #333;
+}
